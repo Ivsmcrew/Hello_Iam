@@ -1,91 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+    
     <head>
-        <meta charset="utf-8">
-        <title>Web-forms</title>
+        <meta charset="UTF-8">
+        <title>Document</title>
     </head>
 
-    <body bgcolor="#99ffcc" text="9900ff" leftmargin="30" rightmargin="30" topmargin="40" bottommargin="40">
-        <table border="3" align="center">
-            <h1 align="center" style="color:coral">What about something...</h1>
-            <hr>
-
-            <tr style="background:rgb(226, 180, 63)">
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-            <tr>
-                <td>6:00-12:00</td>
-                <td>12:00-18:00</td>
-                <td>14:00-20:00</td>
-                <td colspan="2" align="center">14:00-20:00</td>
-                <!-- <td>14:00-20:00</td> -->
-            </tr>
-        </table>
-        <hr>
-
-        <div style="color:black" align="center">
-            <h2>Main info</h2>
-                <form name="form1" action="/" method="POST">
-                    <table>
-                        <tr>
-                            <td>Name:</td>
-                            <td><input type="text" name="nameOfPerson" maxlength="10" placeholder="Иван"></td>
-                        </tr>
-                        <tr>
-                            <td>Surname:</td>
-                            <td><input type="text" name="surnameOfPerson" maxlength="10" placeholder="Иванов"></td>
-                        </tr>
-                        <tr>
-                            <td>Age:</td>
-                            <td><input type="text" name="ageOfPerson" maxlength="2" placeholder="20"></td>
-                        </tr>
-                        <tr>
-                            <td>Password:</td>
-                            <td><input type="password" name="passwordOfPerson" maxlength="12"></td>
-                        </tr>
-                    </table>
-                    <br>
-                    Reset datas: <input type="reset" name=""> <br>
-                    Send datas: <input type="submit" name="" value="Отправить"> <br>
-                </form>
-                <hr>
-        </div>
+    <body>
         
-        <div style="color:black" align="left">
-            <h2>Your exams(mark needed)</h2>
-            <form name="form2" action="/" method="POST">
-                <label for="math">Mathmatics <input id="math" type="checkbox" name=""></label>  <br>
-                <label for="astr">Astronomy <input id="astr" type="checkbox" name=""></label> <br>
-                <label for="engl">English <input id="engl" type="checkbox" name=""></label> <br>
-                <label for="bio">Biology <input id="bio" type="checkbox" name=""></label> <br>
-                <label for="phys">Physics <input id="phys" type="checkbox" name=""></label> <br><br>
-                Reser datas: <input type="reset" name=""> <br>
-                Send datas: <input type="submit" name="" value="Отправить"> <br>
-                Analog of "send"<button type="submit">Отправить</button>
-            </form>
-            <hr>
-        </div>
-
-        <div style="color:black">
-            <h3 style="font-size:24px">Your comment</h3>
-
-            <form name="form3" action="/" method="POST">
-                <textarea name="newText" placeholder="New comment..." cols="100" rows="5"></textarea> <br>
-                <input type="reset" name=""> 
-                <input type="image" name="" src="../referencedPages/img/9ec4b55c6786a26b257a106cac0c056f.jpg">
-                <button type="submit" name="sendButton">Send</button>
-                <select size="1">
-                    <option>txt</option>
-                    <option>java</option>
-                    <option>js</option>
-                    <option>html</option>
-                </select>
-            </form>
-        </div>
-
     </body>
+
 </html>
