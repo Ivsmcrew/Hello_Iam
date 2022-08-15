@@ -3,5 +3,27 @@ img#avatar{
 }
 
 body{
+    padding: 30px;
     background-image: url(../img/fon1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.Preface{
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #000;
+}
+
+.MainInfo{
+    height: 510px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #000;
+}
+
+.Biografy{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #000;
+}
+
