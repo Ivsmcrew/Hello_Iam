@@ -32,7 +32,7 @@ section.Preface{
     background-color: rgb(136, 167, 130, 0.1);
 
     text-align: center;
-    font-family: Courier New, monospace;
+    font-family: Aboreto, monospace;
 }
 nav{
     padding: 5px 5px;
@@ -46,7 +46,7 @@ section.MainInfo{
     box-shadow: 0 0 4px rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
 
-    font-family: Courier New, monospace;
+    font-family: Aboreto, monospace;
 }
 
 .Biografy{
@@ -57,7 +57,7 @@ section.MainInfo{
     box-shadow: 0 0 4px rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
 
-    font-family: Courier New, monospace;
+    font-family: Aboreto, monospace;
 }
 
 footer{
