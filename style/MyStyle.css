@@ -27,6 +27,7 @@ section.Preface{
     padding: 10px 30px;
     margin: 10px;
     height: 200px;
+    overflow: auto;
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
@@ -42,6 +43,7 @@ section.MainInfo{
     padding: 10px 30px;
     margin: 10px;
     height: 550px;
+    overflow: auto;
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
@@ -53,6 +55,7 @@ section.MainInfo{
     padding: 10px 30px;
     margin: 10px;
     height: 300px;
+    overflow: auto;
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
