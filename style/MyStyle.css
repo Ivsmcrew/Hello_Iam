@@ -7,7 +7,7 @@ rgb(179, 204, 174)
 */
 
 body{
-    margin: 20px;
+    margin: 1.4em;
     background-color: rgb(179, 204, 174, 0.5);
     background-position: center center;
     background-size: cover;
@@ -24,12 +24,12 @@ header{
 }
 
 section.Preface{
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 0.7em 1.8em;
+    margin: 0.7em;
     height: auto;
     overflow: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 4px rgb(33, 53, 31);
+    border-radius: 0.7em;
+    box-shadow: 0 0 0.3em rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
 
     text-align: center;
@@ -40,36 +40,36 @@ nav{
 }
 
 section.MainInfo{
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 0.7em 1.8em;
+    margin: 0.7em;
     height: auto;
     overflow: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 4px rgb(33, 53, 31);
+    border-radius: 0.7em;
+    box-shadow: 0 0 0.3em rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
 
     font-family: Aboreto, monospace;
 }
 
 .Biografy{
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 0.7em 1.8em;
+    margin: 0.7em;
     height: auto;
     overflow: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 4px rgb(33, 53, 31);
+    border-radius: 0.7em;
+    box-shadow: 0 0 0.3em rgb(33, 53, 31);
     background-color: rgb(136, 167, 130, 0.1);
 
     font-family: Aboreto, monospace;
 }
 
 footer{
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 0.7em 1.8em;
+    margin: 0.7em;
 }
 
 img#avatar{
-    height:300px; width: 220px;
+    height: 19em; width: 14em;
 }
 
 a:link{
@@ -85,6 +85,6 @@ a:hover{
 }
 
 p::first-letter{
-    font-size: 30px;
+    font-size: 1.8em;
     color: rgb(1, 41, 26);
 }
