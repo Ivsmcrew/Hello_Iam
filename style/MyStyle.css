@@ -26,7 +26,7 @@ header{
 section.Preface{
     padding: 10px 30px;
     margin: 10px;
-    height: 200px;
+    height: auto;
     overflow: auto;
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(33, 53, 31);
@@ -42,7 +42,7 @@ nav{
 section.MainInfo{
     padding: 10px 30px;
     margin: 10px;
-    height: 550px;
+    height: auto;
     overflow: auto;
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(33, 53, 31);
@@ -54,7 +54,7 @@ section.MainInfo{
 .Biografy{
     padding: 10px 30px;
     margin: 10px;
-    height: 300px;
+    height: auto;
     overflow: auto;
     border-radius: 10px;
     box-shadow: 0 0 4px rgb(33, 53, 31);
