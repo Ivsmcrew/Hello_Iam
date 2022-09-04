@@ -19,12 +19,12 @@ body{
 }
 
 header{
-    font-size: large;
+    font-size: 2em;
     text-align: center;
 }
 
 section.Preface{
-    padding: 0.7em 1.8em;
+    padding: 1.5em 1.8em;
     margin: 0.7em;
     height: auto;
     overflow: auto;
@@ -35,6 +35,19 @@ section.Preface{
     text-align: center;
     font-family: Aboreto, monospace;
 }
+
+.Preface p{
+    text-align: justify;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+}
+
+.Preface h2{
+    text-align: left;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
 nav{
     padding: 5px 5px;
 }
@@ -49,7 +62,25 @@ nav a{
 }
 
 section.MainInfo{
-    padding: 0.7em 1.8em;
+    padding: 1.5em 1.8em;
+    margin: 0.7em;
+    height: auto;
+    overflow: auto;
+    border-radius: 0.7em;
+    box-shadow: 0 0 0.3em rgb(33, 53, 31);
+    background-color: rgb(136, 167, 130, 0.1);
+
+    font-size: 1em;
+    font-family: Aboreto, monospace;
+}
+
+.MainInfo p{
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+}
+
+.Biografy{
+    padding: 1.5em 1.8em;
     margin: 0.7em;
     height: auto;
     overflow: auto;
@@ -60,16 +91,9 @@ section.MainInfo{
     font-family: Aboreto, monospace;
 }
 
-.Biografy{
-    padding: 0.7em 1.8em;
-    margin: 0.7em;
-    height: auto;
-    overflow: auto;
-    border-radius: 0.7em;
-    box-shadow: 0 0 0.3em rgb(33, 53, 31);
-    background-color: rgb(136, 167, 130, 0.1);
-
-    font-family: Aboreto, monospace;
+.Biografy p{
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
 }
 
 footer{
@@ -79,8 +103,13 @@ footer{
 }
 
 img#avatar{
-    height: 19em; width: 14em;
+    height: 19em; 
+    width: 14em;
+    border-radius: 1em;
 }
+
+
+
 
 a:link{
     color: rgb(206, 145, 32);
