@@ -121,6 +121,7 @@ a:visited{
 
 a:hover{
     color: rgb(206, 88, 21);
+    background-color: aliceblue;
 }
 
 p::first-letter{
